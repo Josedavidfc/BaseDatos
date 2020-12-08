@@ -235,12 +235,13 @@ WHERE idFestivales="2";
 Select * from festivales.Festivales;
 
 -- CONSULTA DELETE--
-DELETE FROM artista where Compuesto;
+DELETE FROM artista where Compuesto ="2";
 
 -- CONSULTA SELECT-- 
-SELECT * FROM festivales;
 SELECT Nombre, Pais FROM festivales WHERE Capacidad>300;
 
 -- CONSULTA SELECT--
 SELECT Nombre, Compuesto FROM Artista WHERE Compuesto ="2";
 SELECT Nombre, Compuesto, Genero FROM Artista WHERE Genero="1";
+
+SELECT * FROM festivales;
